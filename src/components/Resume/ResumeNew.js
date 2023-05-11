@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/CV-MOHAMED-MOKRANI.pdf";
-import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+import Particle from "../Particle";
 
 const resumeLink = "";
 
@@ -20,20 +17,40 @@ function ResumeNew() {
   return (
     <div>
       <Container fluid className="resume-section">
-       
+        <div className="education-container">
+          <div>
+            <h1>LBG</h1>
+            
+            <h2>High school diploma</h2>
+            <h2>Computer science</h2>
+            <h5>Pascal/Python/C++</h5>
+          <h5>2014</h5></div>
+          <div>
+            <h1>ISET Gabès</h1>
+            
+            <h2>Bachelor's degree</h2>
+            <h2>Cyber-security</h2>
+            <h5>Java/Linux/C#/CCNA/Matlab</h5>
+          <h5>2018</h5></div>
+          <div>
+            <h1>GOMYCODE</h1>
+            
+            <h2>Certificate</h2>
+            <h2>FullStack JavaScript</h2>
+            <h5>MongoDB/ExpressJS/ReactJS/NodeJS</h5>
+          <h5>2023</h5></div>
+        </div>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-           
-            CV
-          </Button>
-        </Row>
+        <Button
+          variant="primary"
+          href={pdf}
+          target="_blank"
+          style={{ width: "400px" }}
+        >
+          CV
+        </Button>
       </Container>
+      <Particle />
     </div>
   );
 }

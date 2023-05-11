@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
-
+// Copyrights MOHAMED MOKRANI | Linkedin:https://www.linkedin.com/in/medmokranii/
 function AboutCard() {
   return (
     <Card className="quote-card-view">

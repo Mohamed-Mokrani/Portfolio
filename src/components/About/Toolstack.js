@@ -7,7 +7,7 @@ import {
   SiHeroku,
   SiVercel,
 } from "react-icons/si";
-
+// Copyrights MOHAMED MOKRANI | Linkedin:https://www.linkedin.com/in/medmokranii/
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>

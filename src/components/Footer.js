@@ -31,7 +31,7 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-           
+           {/* // Copyrights MOHAMED MOKRANI | Linkedin:https://www.linkedin.com/in/medmokranii/ */}
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/medmokranii/"
