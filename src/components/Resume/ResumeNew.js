@@ -15,7 +15,7 @@ function ResumeNew() {
   }, []);
 
   return (
-    <div>
+    <div className="div-resume">
       <Container fluid className="resume-section">
         <div className="education-container">
           <div>
@@ -45,7 +45,7 @@ function ResumeNew() {
           variant="primary"
           href={pdf}
           target="_blank"
-          style={{ width: "400px" }}
+          className="btn-div"
         >
           CV
         </Button>
