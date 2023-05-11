@@ -644,6 +644,9 @@ button:focus {
   scale: 1.02;
   border: #9324ac solid 3px;
 }
+.btn-cv{
+  width: 400px!important;
+}
 
 @media (max-width: 1200px) {
   .resume-section {
@@ -681,6 +684,3 @@ button:focus {
 }
 
 
-.btn-cv{
-  width: 400px;
-}

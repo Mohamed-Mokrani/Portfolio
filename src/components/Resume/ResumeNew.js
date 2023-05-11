@@ -45,7 +45,7 @@ function ResumeNew() {
           variant="primary"
           href={pdf}
           target="_blank"
-          className="btn-div"
+          className="btn-cv"
         >
           CV
         </Button>
