@@ -649,7 +649,7 @@ button:focus {
 
 @media (max-width: 1200px) {
   .education-container {
-   width: 450px;
+   width: 440px;
     flex-direction: column;
   }
 
