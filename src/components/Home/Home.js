@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 // Copyrights MOHAMED MOKRANI | Linkedin:https://www.linkedin.com/in/medmokranii/
+
 function Home() {
   return (
     <section>
