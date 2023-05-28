@@ -4,7 +4,7 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-
+// Copyrights MOHAMED MOKRANI | Linkedin:https://www.linkedin.com/in/medmokranii/
 
 function Home() {
   return (
@@ -20,7 +20,7 @@ function Home() {
                   👋🏻
                 </span>
               </h1>
-
+              
               <h1 className="heading-name">
                 I'M
                 <strong className="main-name"> Mohamed MOKRANI</strong>
