@@ -9,7 +9,6 @@ import movie from "../../Assets/Projects/movie-time.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
-
 function Projects() {
   return (
     <Container fluid className="project-section">
